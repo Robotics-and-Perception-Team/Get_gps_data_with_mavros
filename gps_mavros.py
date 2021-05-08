@@ -10,7 +10,7 @@ def gps_durum(data):
     rospy.loginfo("Current Latitude degrees : %2f ", data.latitude)
     rospy.loginfo("Current Longitude degrees : %2f ", data.longitude)
     rospy.loginfo("Current Altitude : %2f ", data.altitude)
-    print("hi")
+    print("##########################################################")
 
 def do_cur_gps():
     rospy.init_node("mavcmd", anonymous=True)
